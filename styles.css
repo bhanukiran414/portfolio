@@ -56,6 +56,23 @@ section:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ffaa00;
+    transform: scale(1.05);
+}
+
 footer {
     padding: 20px;
     font-size: 14px;
